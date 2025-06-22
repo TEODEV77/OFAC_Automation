@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Reports
+
+reports/
+
+# Screenshots
+screenshots/*
+!screenshots/.gitkeep
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
