@@ -1,7 +1,6 @@
 import logging
 from datetime import datetime
 from pathlib import Path
-
 import pandas as pd
 from config import settings
 
@@ -22,7 +21,7 @@ def create_incomplete_records_report(records: list):
 
     try:
         # Create DataFrame from records
-        data_frame = pd.data_frame(records)
+        data_frame = pd.DataFrame(records)
 
         # Generate dynamic filename with timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
